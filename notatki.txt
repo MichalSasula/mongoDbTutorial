@@ -1,0 +1,12 @@
+npm i mongoose
+
+Schema types:
+string/number/date/buffer/boolean/ObjectId/Array
+
+mongoimport --db mongo-exercises --collection courses --drop --file exercise-data.json --jsonArray
+
+mongimport // import data into mongodatabase
+--db mongo-exercises // specifie name of database
+--colection courses // nazwa kolekcji
+--file exercise-data.js //plik, z którego importujemy
+--jsonArray //poniewa¿ dane w pliku s¹ w formie macierzy
